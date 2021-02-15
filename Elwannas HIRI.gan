@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2020-11-01" view-index="0" gantt-divider-location="323" resource-divider-location="300" version="3.0.3000" locale="en_US">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Name" width="179" order="0"/>
+        <field id="tpd4" name="Begin date" width="70" order="1"/>
+        <field id="tpd5" name="End date" width="70" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#000000 #ffff00 #0000ff #0033ff #33ff33 #ff0000]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Dial2MSA" color="#0033ff" meeting="false" start="2020-11-23" duration="7" complete="100" thirdDate="2020-11-17" thirdDate-constraint="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" name="A Hybrid Approach to Translate Moroccan Arabic Dialect" color="#0000ff" meeting="false" start="2020-12-02" duration="5" complete="100" thirdDate="2020-11-17" thirdDate-constraint="0" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" name="AraBench: Benchmarking Arabic Dialect Arabic-English Machine Translation" color="#0000ff" meeting="false" start="2020-11-23" duration="7" complete="100" thirdDate="2020-11-17" thirdDate-constraint="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" name="An Algerian Dialect Study and Resource" color="#0033ff" meeting="false" start="2020-12-02" duration="5" complete="100" thirdDate="2020-11-16" thirdDate-constraint="0" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" name="A Translator for Arabic Dialects to MSA" color="#0000ff" meeting="false" start="2020-12-09" duration="5" complete="100" thirdDate="2020-11-16" thirdDate-constraint="0" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="19" name="Deep Neural Network Machine Translation: An OverView" color="#8cb6ce" meeting="false" start="2020-12-16" duration="5" complete="90" thirdDate="2020-11-30" thirdDate-constraint="0" expand="true">
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="29" name="Addressing the Rare word Problem in NeuralMachine Translation" color="#8cb6ce" meeting="false" start="2020-12-28" duration="3" complete="0" thirdDate="2020-11-30" thirdDate-constraint="0" expand="true">
+            <depend id="58" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="31" name="FAIRSEQ" color="#8cb6ce" meeting="false" start="2021-01-15" duration="5" complete="80" thirdDate="2021-01-15" thirdDate-constraint="0" expand="true"/>
+        <task id="22" name="Neural Machine Translation to Alighn and Trenaslate" color="#8cb6ce" meeting="false" start="2020-12-17" duration="2" complete="0" thirdDate="2020-11-30" thirdDate-constraint="0" expand="true"/>
+        <task id="24" name="Seq 2 Seq Learning with Neural Network" color="#8cb6ce" meeting="false" start="2020-12-23" duration="3" complete="80" thirdDate="2020-11-30" thirdDate-constraint="0" expand="true">
+            <depend id="29" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="34" name="A Multi Dialect parallel corpus Arabic" color="#8cb6ce" meeting="false" start="2021-02-01" duration="1" complete="20" thirdDate="2021-01-04" thirdDate-constraint="0" expand="true"/>
+        <task id="37" name="Parallel Recources for Tunisian Arabic Dialect" color="#8cb6ce" meeting="false" start="2021-02-01" duration="1" complete="100" thirdDate="2021-01-04" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="Building The Corpus part 1 50%" color="#ff0000" meeting="false" start="2020-11-23" duration="56" complete="100" thirdDate="2020-11-16" thirdDate-constraint="0" priority="2" expand="true">
+            <depend id="39" type="2" difference="0" hardness="Strong"/>
+            <depend id="42" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="42" name="Building The Corpus part 2 50%" color="#ff0000" meeting="false" start="2021-02-09" duration="61" complete="20" thirdDate="2020-11-16" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="39" name="First Train On Model" color="#33ff33" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2021-02-09" duration="90" complete="5" thirdDate="2020-11-02" thirdDate-constraint="0" priority="2" expand="true">
+            <notes>
+                <![CDATA[Started by only 50% of sent Corpus]]>
+            </notes>
+        </task>
+        <task id="53" name="Looking for Other Corpora" color="#ffff00" meeting="false" start="2020-11-23" duration="120" complete="30" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true"/>
+        <task id="58" name="Break" color="#000000" meeting="false" start="2020-12-31" duration="11" complete="0" thirdDate="2020-11-02" thirdDate-constraint="0" expand="true">
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
